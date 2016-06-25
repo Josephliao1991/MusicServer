@@ -32,8 +32,8 @@ app.get('/', function (req, res) {
 
 
 /* Router */
-var router = require('./Router/router');
-app.use('/Song', router)
+var SongApi = require('./Router/SongApi');
+app.use('/Song', SongApi)
 
 
 
