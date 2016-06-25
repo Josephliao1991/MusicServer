@@ -3,22 +3,21 @@
     "script"      : "server.js",
     "name"        : "music_server",
     "watch"       : true,
-    //"watch": ["server"],
-    "ignore_watch" : ["tmp"],
-    //"watch_options": {
-    //                    "followSymlinks": false
-    //                 },
-    //"env"         : {
-    //                   "NODE_ENV": "development",
-    //                },
-    //"env_production" : {
-    //                   "NODE_ENV": "production"
-    //                   },
-    //"script"          : "echo.js",
+    /*"watch": ["server"],*/
+    /*"ignore_watch" : ["tmp"],
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "env"         : {
+      "NODE_ENV": "development",
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    },*/
     "error_file"      : "/var/nodejs/log/music_server/music_server-err.log",
     "out_file"        : "/var/nodejs/log/music_server/music_server-out.log",
     "log_file"        : "/var/nodejs/log/music_server/music_server-process.log",
     "merge_logs"      : true,
     "log_date_format" : "YYYY-MM-DD HH:mm Z"
-  }]
-}
+    }]
+  }
