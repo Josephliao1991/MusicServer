@@ -1,0 +1,29 @@
+{
+  "name"        : "music_server",
+  "version"     : "1.0.0",
+  "description" : "",
+  "main"        : "server.js",
+
+  "dependencies": {
+    "express"               : "~4",
+    "body-parser"           : "1.14.1",
+    "method-override"       : "2.3.5",
+    "randomstring"          : "^1.1.3"
+  },
+  "devDependencies": {},
+
+  "scripts": {
+    "test"  : "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
+  },
+
+  "keywords": [
+    "node",
+    "nodejs",
+    "mvc"
+  ],
+
+  "author": "Joseph Liao",
+
+  "license": "ISC"
+}
